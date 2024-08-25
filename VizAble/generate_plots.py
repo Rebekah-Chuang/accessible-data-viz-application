@@ -34,7 +34,7 @@ def generate_plots_ui() -> ui.nav_panel:
                             placeholder="Enter a title for the y-axis"
                         ),
                         ui.input_checkbox(
-                            id="markers",
+                            id="line_markers",
                             label="Show markers or not",
                         ),
                         # ui.input_select(
